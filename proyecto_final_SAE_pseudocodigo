@@ -1,0 +1,46 @@
+Proceso SAE
+	Escribir "Bienvenido al SAE, el Sistema de Analisis Estilometrico"
+	Escribir "Que podemos hacer?"
+	Escribir "1. Analizar riqueza lexica"
+	Escribir "2. Analizar el Dice Similarity"
+	Escribir "3. Analizar las categorias gramaticales"
+	Escribir "4. Analizar los datos totales"
+	Escribir "5. Ayuda"
+	Escribir "6. Salir"
+	Leer b
+	
+	Segun b Hacer
+		1:
+			Escribir " "
+			Escribir "En esta opcion, se analiza el numero de palabras diferentes que se encuentran en ambos textos"
+			Escribir "Se cuentan las palabras totales, por cada texto y se dividen entre el numero de palabras que tienen una sola aparicion"
+			Escribir "Asimismo, se puede realizar por medio de otro tipo de palabras, como las que aparecen dos veces o las que se repiten con mayor frecuencia"
+		2:
+			Escribir ""
+			Escribir "En esta opcion se encuentra un analisis estadistico"
+			Escribir "Esto se trata de tomar el total de palabras que ambos textos tienen en comun entre la suma de la longitud de ambos"
+			Escribir "El resultado será pequeño, pero servirá para conformar el resultado en la opcion 4"
+		3:
+			Escribir " "
+			Escribir "En esta opcion, se etiqueta cada una de las palabras de ambos textos con la herramienta Freeling"
+			Escribir "Las categorias gramaticales a analizar, por orden de relevancia, son las siguientes:"
+			Escribir "1. Verbos"
+			Escribir "2. Sustantivos"
+			Escribir "3. Adverbios"
+			Escribir "4. Pronombres"
+			Escribir "El usuario podra elegir alguna categoria gramatical a elegir y ver si la comparacion arroja resultados eficientes en su busqueda"
+		4:
+			Escribir " "
+			Escribir "Todos los datos de las pruebas anteriores se almacenan en una lista"
+			Escribir "Esta ultima opcion obtiene el promedio de todos ellos para dar un acercamiento mas concreto al analisis"
+			Escribir "Con esta herramienta, es posible comprobar si los textos son parecidos o no"
+		5:
+			Escribir "Despliega una lista de ayuda en caso de que el usuario no sepa para qué sirve cada herramienta"
+		6:
+			Escribir "Gracias por usar nuestro programa"
+			Escribir "Vuelva pronto"
+		De Otro Modo:
+			Escribir "Opcion no valida"
+	FinSegun
+	
+FinProceso
