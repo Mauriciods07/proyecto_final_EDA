@@ -1,0 +1,14 @@
+1. Riqueza léxica:
+	La prueba más sencilla de todas. Se encarga de contar el número de palabras de cada texto. Con el número que salga de la razón, se puede hacer una estimación de proximidad.
+Si el número resultante es mayor a 1, los textos, posiblemente, pertenecen al mismo autor. Si el número es menor a 1, los textos no tienen una similitud muy amplia.
+
+2. Dice Similarity:
+	Esta función obtiene las palabras que tienen ambos textos en común y las divide entre la suma de las palabras totales de ambos textos.
+
+3. Análisis POS:
+	El análisis POS (Parts of Speech) toma la categoría gramatical que el usuario escoja, mide su frecuencia en el texto y devuelve un promedio de cuántas veces fue usada dicha categoría gramatical. En total, hay cinco categorías gramaticales que son adjetivos, sustantivos, verbos, adverbios y determinantes.
+
+4. Análisis de datos:
+	Para poder usar esta función, se debe hacer, al menos, una prueba de las mostradas anteriormente. Recoje todos los resultados obtenidos en una lista, obtiene el promedio y otorga un resultado más general que da un conocimiento aproximado de si los textos son similares o no. Mientras más pruebas se realicen, más concreto será el resultado.
+
+Todas las pruebas, a excepción de la primera, tienen como referente la unidad. Mientras el resultado esté más próximo a 1, la similitud entre ambos textos es mayor. De lo contrario, reflejará un distanciamiento entre las muestras.
